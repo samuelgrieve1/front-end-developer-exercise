@@ -41,9 +41,19 @@ export const state = {
 };
 
 export const getters = {
-  pricingOptions(state) {
-    return state.pricingOptions;
+  pricingOptionsFree(state) {
+    return state.pricingOptions
   },
 };
 
-export const mutations = {};
+export const mutations = {
+  chosenPlanFree (state) {
+    state.chosenPlan = "Free"
+  },
+  chosenPlanPro (state) {
+    state.chosenPlan = "Pro"
+  },
+  chosenPlanEnterprise (state) {
+    state.chosenPlan = "Enterprise"
+  }
+};

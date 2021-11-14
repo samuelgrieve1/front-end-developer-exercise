@@ -5,7 +5,7 @@
         <h1>Pricing</h1>
       </b-col>
     </b-row>
-    <b-row class="justify-content-center">
+    <b-row class="justify-content-center mb-5">
       <b-col md="8">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
@@ -15,11 +15,17 @@
         </p>
       </b-col>
     </b-row>
+    <b-row class="justify-content-center">
+      <pricing-card></pricing-card>
+    </b-row>
   </b-container>
 </template>
 
 <script>
+import PricingCard from '../components/PricingCard.vue';
+
 export default {
+  components: { PricingCard },
   name: 'Pricing',
   layout: 'default',
   computed: {},

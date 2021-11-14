@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="col">
     <h4>Welcome to our website</h4>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur mollitia
